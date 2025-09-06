@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Site institucional da Paróquia Nossa Senhora da Penha: horários de missas, sacramentos, pastorais, notícias e contato.">
+    <title>Paróquia Nossa Senhora da Penha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="wrap">
+            <div>
+                <a href="#contato">Como chegar</a> ·
+                <a href="#doacoes">Doações</a> ·
+                <a href="tel:+5500000000000">(00) 00000-0000</a>
+            </div>
+        </div>
+    </div <header class="header">
+    <!--<div class="wrap">
+        <strong>Paróquia Nossa Senhora da Penha</strong><br>
+        <small>Arquidiocese de São Luís - MA</small>
+    </div>--->
+    <nav id="nav">
+        <a class="nav-link" href="#inicio">Início</a>
+        <a class="nav-link" href="#sobre">Sobre</a>
+        <a class="nav-link" href="#missas">Missas</a>
+        <a class="nav-link" href="#pastorais">Pastorais</a>
+        <a class="nav-link" href="#sacramentos">Sacramentos</a>
+        <a class="nav-link" href="#noticias">Notícias</a>
+        <a class="nav-link" href="#contato">Contato</a>
+        <a class="cta" href="#doacoes">Doações / Dízimo</a>
+    </nav>
+    <button class="menu-btn" aria-label="Abrir menu" onclick="toggleMenu()">☰</button>
+    </header>
+
+    <section id="inicio" class="hero" aria-label="Apresentação">
+        <div class="hero-inner">
+            <h1>Bem-vindos à Paróquia Nossa Senhora da Penha</h1>
+            <p>Uma comunidade acolhedora, a serviço do Evangelho, da caridade e da vida sacramental.</p>
+            <div class="actions">
+                <a class="btn btn-primary" href="#missas">Ver horários das Missas</a>
+                <a class="btn btn-outline" href="#contato">Fale conosco</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre a Paróquia</h2>
+            <p class="section-sub">História, missão e nossa devoção a Nossa Senhora da Penha.</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>Nossa História</h3>
+                    <p>Fundada em <strong>ANO</strong>, nossa paróquia cresceu como espaço de oração, formação e
+                        serviço. Guardamos com carinho a devoção a Nossa Senhora da Penha e a tradição das festas
+                        paroquiais.</p>
+                </div>
+                <div class="card">
+                    <h3>Missão & Visão</h3>
+                    <p>Evangelizar com alegria, celebrar os sacramentos e promover obras de misericórdia, formando
+                        discípulos missionários a serviço do Reino.</p>
+                </div>
+                <div class="card">
+                    <h3>Diferenciais</h3>
+                    <p>Liturgia participativa, grupos de oração, catequese estruturada, ação social e presença ativa nas
+                        famílias e comunidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="missas">
+        <div class="container grid-2">
+            <div>
+                <h2 class="section-title">Horários das Missas</h2>
+                <p class="section-sub">Atualize conforme a agenda paroquial.</p>
+                <table aria-label="Tabela de horários das Missas">
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                            <th>Local</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda-feira</td>
+                            <td>—</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td>Terça-feira</td>
+                            <td>19h30</td>
+                            <td>Igreja Matriz</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta-feira</td>
+                            <td>07h00</td>
+                            <td>Capela São José</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta-feira</td>
+                            <td>18h30 (Adoração) · 19h00 (Missa)</td>
+                            <td>Matriz</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta-feira</td>
+                            <td>19h00</td>
+                            <td>Matriz</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td>18h00 (Vespertina)</td>
+                            <td>Matriz</td>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td>07h, 09h, 19h</td>
+                            <td>Matriz</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <h3>Próximos eventos</h3>
+                <div class="card">
+                    <strong>Festa da Penha 2025</strong>
+                    <p>Data: 05 a 14 de Setembro — Procissões, novenas e programação cultural.</p>
+                    <a class="btn btn-primary" href="#noticias">Ver programação completa</a>
+                </div>
+                <div style="height:12px"></div>
+                <div class="card">
+                    <strong>Confissões</strong>
+                    <p>Quintas-feiras, das 17h às 18h30 (Matriz). Outros horários sob agendamento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pastorais">
+        <div class="container">
+            <h2 class="section-title">Pastorais e Movimentos</h2>
+            <p class="section-sub">Serviços e carismas a serviço da comunidade.</p>
+            <div class="pastorais">
+                <div class="pastoral"><strong>Liturgia</strong>
+                    <p>Leitores, salmistas, ministros, corais.</p>
+                </div>
+                <div class="pastoral"><strong>Catequese</strong>
+                    <p>Catequese infantil, Crisma, adultos (Catecumenato).</p>
+                </div>
+                <div class="pastoral"><strong>Caridade</strong>
+                    <p>Pastoral Social, visitas aos enfermos, campanha do agasalho.</p>
+                </div>
+                <div class="pastoral"><strong>Jovens</strong>
+                    <p>Grupo de jovens, retiros, missão nas escolas.</p>
+                </div>
+                <div class="pastoral"><strong>Famílias</strong>
+                    <p>ECC, bênçãos de lares, encontros de casais.</p>
+                </div>
+                <div class="pastoral"><strong>Comunicação</strong>
+                    <p>Pascom, redes sociais, transmissão de Missas.</p>
+                </div>
+                <div class="pastoral"><strong>Dízimo</strong>
+                    <p>Acolhida dos dizimistas, aniversariantes do mês.</p>
+                </div>
+                <div class="pastoral"><strong>Outros</strong>
+                    <p>Terço dos homens, Legião de Maria, movimentos marianos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sacramentos">
+        <div class="container">
+            <h2 class="section-title">Sacramentos</h2>
+            <p class="section-sub">Informações e orientações para preparação.</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>Batismo</h3>
+                    <p>Inscrições: Secretaria paroquial. Documentos: certidão de nascimento, RG dos pais e padrinhos.
+                        Encontros de preparação: todo 1º sábado.</p>
+                </div>
+                <div class="card">
+                    <h3>Matrimônio</h3>
+                    <p>Agendamento com 6 meses de antecedência. Curso de noivos obrigatório. Lista de documentos
+                        disponível na secretaria.</p>
+                </div>
+                <div class="card">
+                    <h3>Eucaristia & Crisma</h3>
+                    <p>Catequese anual por faixas etárias. Matrículas abertas em FEVEREIRO e AGOSTO.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="noticias">
+        <div class="container">
+            <h2 class="section-title">Notícias & Avisos</h2>
+            <p class="section-sub">Últimas postagens do nosso Instagram.</p>
+            <--<div id="instaFeed" class="news" aria-live="polite"></div>
+
+            <div id="instaFallback" class="card" style="margin-top:16px; display:none">
+                Siga-nos no Instagram para acompanhar as novidades.
+                <a class="btn btn-primary" href="https://www.instagram.com/paroquiapenha/" target="_blank" rel="noopener">Abrir
+                    Instagram</a>
+            </div>
+        </div>
+    </section> -->
+    <section id="noticias">
+        <div class="container">
+            <h2 class="section-title">Notícias & Avisos</h2>
+            <p class="section-sub">Atualize esta área com as últimas novidades da paróquia.</p>
+            <div class="news">
+                <article class="item">
+                    <img src=""
+                    <div class="txt">
+                        <h3>Início da Novena</h3>
+                        <p>Começa nesta semana a novena em honra a Nossa Senhora da Penha. Participe conosco!</p>
+                    </div>
+                </article>
+                <article class="item">
+                    <img src="" alt=""">
+                    <div class=" txt">
+                    <h3>Campanha Arrecadação de flores</h3>
+                    <p>Arrecadação de flhores festa de penha 2025.</p>
+            </div>
+            </article>
+            <article class="item">
+                <img src=""
+                    alt="imagem">
+                <div class="txt">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </article>
+        </div>
+        </div>
+    </section>
+
+    <section id="doacoes" class="doacoes">
+        <div class="container">
+            <h2 class="section-title">Doações & Dízimo</h2>
+            <p class="section-sub">Sua contribuição mantém as obras pastorais e a manutenção de nossa igreja.</p>
+            <div class="pix">
+                <div style="flex:1">
+                    <strong>Chave PIX:</strong>
+                    <div style="font-size:1.2rem">paquiqnspenha@outlook.com</div>
+                    <small>Razão social: Paróquia Nossa Senhora da Penha • CNPJ: 26.322.130/0001-34</small>
+                </div>
+                <a class="btn btn-primary" href="#contato">Comprovante / dúvidas</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container contact">
+            <div>
+                <h2 class="section-title">Fale Conosco</h2>
+                <p class="section-sub">Secretaria paroquial — Endereço completo, Bairro, Cidade/UF.</p>
+                <form onsubmit="return enviarWhats(event)">
+                    <div class="field"><label for="nome">Nome</label><input id="nome" required placeholder="Seu nome" />
+                    </div>
+                    <div class="field"><label for="assunto">Assunto</label>
+                        <select id="assunto">
+                            <option>Informações gerais</option>
+                            <option>Sacramentos</option>
+                            <option>Dízimo</option>
+                            <option>Intenções de Missa</option>
+                        </select>
+                    </div>
+                    <div class="field"><label for="mensagem">Mensagem</label><textarea id="mensagem"
+                            placeholder="Escreva sua mensagem..."></textarea></div>
+                    <button class="btn btn-primary" type="submit">Enviar por WhatsApp</button>
+                </form>
+                <div style="height:12px"></div>
+                <div class="whats">💬 WhatsApp Secretaria: <a id="whatsLink" href="https://wa.me/5500000000000" target="_blank"
+                        rel="noopener">(98) 98544-3074</a></div>
+            </div>
+            <div>
+                <h3>Localização</h3>
+                <div class="card">
+                    <p>Endereço: Rua Honduras, S/N  — Anjo da Guarda — São Luís/MA</p>
+                    <div style="border-radius:14px;overflow:hidden">
+                        <iframe title="Mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7971.651900511471!2d-44.332494440957404!3d-2.563378206322866!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f688a9c6c12c23%3A0x6f348d603912f7ca!2sIgreja%20Nossa%20Senhora%20da%20Penha%20-%20Matriz!5e0!3m2!1spt-BR!2sbr!4v1757174912421!5m2!1spt-BR!2sbr"
+                            width="100%" height="260" style="border:0" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="container" style="padding:28px 20px">
+            <div class="cols">
+                <div>
+                    <h3 style="margin:0 0 8px">Paróquia Nossa Senhora da Penha</h3>
+                    <p style="margin:0 0 12px;color:#d3e2ff">Arquidiocese — São Luís/MA • CNPJ 26.322.130/0001-34</p>
+                    <p style="margin:0;color:#cfe0ff">"Sob o manto de Maria, caminhamos em Cristo"</p>
+                </div>
+                <div>
+                    <strong>Links</strong><br>
+                    <a href="#sobre">Sobre</a><br>
+                    <a href="#missas">Missas</a><br>
+                    <a href="#sacramentos">Sacramentos</a><br>
+                    <a href="#doacoes">Doações</a>
+                </div>
+                <div>
+                    <strong>Contato</strong><br>
+                    <a href="mailto:contato@paroquia-penha.com.br">paquiqnspenha@outlook.com</a><br>
+                    <a href="tel:+5500000000000">(98) 98544-3074</a><br>
+                    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">WhatsApp</a>
+                </div>
+            </div>
+            <div class="subfooter">© <span id="ano"></span> Paróquia Nossa Senhora da Penha. Todos os direitos
+                reservados.</div>
+        </section>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
